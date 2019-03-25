@@ -11,7 +11,18 @@ Verify the install by running the `vault` command, it should display usage
 
 _You can run the_ `vault -autocomplete-install` _and restart your terminal to have autocompletion on commands_
 
+You can then launch the vault server, add the address to your path and check the status:
 
+`vault server -dev` _launched in a separate terminal_
+
+```
+export VAULT_ADDR='http://127.0.0.1:8200'
+vault status
+```
+Add the admin policy to ensure you can run the `transit` command:
+
+```
 vault policy write admin admin-policy.hcl
 Success! Uploaded policy: admin
+```
 
