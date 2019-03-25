@@ -26,8 +26,9 @@ vault policy write admin admin-policy.hcl
 Success! Uploaded policy: admin
 ```
 TODO:
- [] Add architecure diagram for data flow between the DMS and Vault server
- [] Create a small NodeJs app to simulate persitance (DMS)
- [] Create a small NodeJs app to simulate an app requesting data to persistance (Consumer)
- [] Create a small NodeJs app to simulate an app producing personal data (Producer) with consent approval
- [] Experiment with consent removal and procedure to ensure flow with non accessible data
+ - [ ] Add architecure diagram for data flow between the DMS and Vault server
+ - [ ] Create a small NodeJs app to simulate persitance (DMS)
+ - [ ] Create a small NodeJs app to simulate an app requesting data to persistance (Consumer)
+ - [ ] Create a small NodeJs app to simulate an app producing personal data (Producer) with consent approval
+ - [ ] Experiment with consent removal and procedure to ensure flow with non accessible data
+
