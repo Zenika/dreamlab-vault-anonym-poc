@@ -26,6 +26,7 @@ vault policy write admin admin-policy.hcl
 Success! Uploaded policy: admin
 ```
 TODO:
+ - [ ] Continue to describe porcedure for `transit` configuration
  - [ ] Add architecure diagram for data flow between the DMS and Vault server
  - [ ] Create a small NodeJs app to simulate persitance (DMS)
  - [ ] Create a small NodeJs app to simulate an app requesting data to persistance (Consumer)
